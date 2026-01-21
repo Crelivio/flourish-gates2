@@ -20,7 +20,7 @@ export default function ServiceCard({ title, description, image, variant = 'smal
             </Button>
           </div>
         )}
-        <div className={`relative ${variant === 'large' ? 'md:w-1/2 h-64 md:h-auto order-2 md:order-none' : 'w-full h-56'}`}>
+        <div className={`relative ${variant === 'large' ? 'md:w-1/2 h-48 md:h-80 order-2 md:order-none' : 'w-full h-48'}`}>
           <img 
             src={image} 
             alt={title}
