@@ -4,7 +4,7 @@ import { PROCESS_DATA } from "@/data/process"
 
 export default function ProcessSection() {
   return (
-    <section className="bg-black py-20 px-6">
+    <section className="bg-black py-30">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-80 md:h-96">

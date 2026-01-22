@@ -3,7 +3,7 @@ import { SERVICES_DATA, SERVICES_CONTENT } from "@/data/services"
 
 export default function ServicesSection() {
   return (
-    <section className="bg-black py-20 px-6">
+    <section className="bg-black py-30 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-gray-400 text-sm mb-3">{SERVICES_CONTENT.heading}</p>
