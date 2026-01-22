@@ -4,24 +4,24 @@ import { PROCESS_DATA } from "@/data/process"
 
 export default function ProcessSection() {
   return (
-    <section className="bg-black py-30">
+    <section className="bg-black py-12 md:py-16 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative h-80 md:h-96">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
+          <div className="relative h-48 md:h-96">
             <img 
               src={PROCESS_DATA.image}
               alt="Construction Process"
-              className="rounded-3xl w-full h-full object-cover"
+              className="rounded-2xl md:rounded-3xl w-full h-full object-cover"
             />
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-4 md:space-y-8">
             {PROCESS_DATA.steps.map((step, index) => (
               <ProcessStep key={index} step={step} />
             ))}
 
-            <div className="pt-4">
-              <Button variant="glass">
+            <div className="pt-2 md:pt-4">
+              <Button variant="glass" className="text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
                 {PROCESS_DATA.buttonText}
               </Button>
             </div>
