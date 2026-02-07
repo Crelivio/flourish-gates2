@@ -15,9 +15,11 @@ export default function ServiceCard({ title, description, image, variant = 'smal
                 {description}
               </p>
             </div>
-            <Button variant="glass" className="self-start text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
-              Get In Touch
-            </Button>
+            <a href="https://wa.link/mwou19" target="_blank" rel="noopener noreferrer">
+              <Button variant="glass" className="self-start text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
+                Get In Touch
+              </Button>
+            </a>
           </div>
         )}
         <div className={`relative ${variant === 'large' ? 'md:w-1/2 h-40 md:h-80 order-2 md:order-none' : 'w-full h-40 md:h-48'}`}>
@@ -37,9 +39,11 @@ export default function ServiceCard({ title, description, image, variant = 'smal
                 {description}
               </p>
             </div>
-            <Button variant="glass" className="self-start text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
-              Get In Touch
-            </Button>
+            <a href="https://wa.link/mwou19" target="_blank" rel="noopener noreferrer">
+              <Button variant="glass" className="self-start text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
+                Get In Touch
+              </Button>
+            </a>
           </div>
         )}
       </div>

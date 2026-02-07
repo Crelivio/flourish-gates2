@@ -21,9 +21,11 @@ export default function ProcessSection() {
             ))}
 
             <div className="pt-2 md:pt-4">
-              <Button variant="glass" className="text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
-                {PROCESS_DATA.buttonText}
-              </Button>
+              <a href="https://docs.google.com/forms/d/1u91VlIjineqCjoktgjwDLlOCbIymuv-Xq4zrHhNMyoQ/edit" target="_blank" rel="noopener noreferrer">
+                <Button variant="glass" className="text-sm md:text-base px-4 py-2 md:px-6 md:py-3">
+                  {PROCESS_DATA.buttonText}
+                </Button>
+              </a>
             </div>
           </div>
         </div>

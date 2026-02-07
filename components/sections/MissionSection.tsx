@@ -24,12 +24,14 @@ export default function MissionSection() {
           {MISSION_DATA.description}
         </p>
         
-        <Button 
-          variant="primary" 
-          className="bg-orange-600 hover:bg-orange-700 px-6 py-2 md:px-8 md:py-3 text-sm md:text-base"
-        >
-          {MISSION_DATA.buttonText}
-        </Button>
+        <a href="https://docs.google.com/forms/d/1u91VlIjineqCjoktgjwDLlOCbIymuv-Xq4zrHhNMyoQ/edit" target="_blank" rel="noopener noreferrer">
+          <Button
+            variant="primary"
+            className="bg-orange-600 hover:bg-orange-700 px-6 py-2 md:px-8 md:py-3 text-sm md:text-base"
+          >
+            {MISSION_DATA.buttonText}
+          </Button>
+        </a>
       </div>
     </section>
   )

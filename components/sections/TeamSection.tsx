@@ -3,7 +3,7 @@ import TeamMemberCard from "@/components/ui/TeamMemberCard"
 
 export default function TeamSection() {
   return (
-    <section className="bg-white py-12 md:py-16 px-4 md:px-6">
+    <section id="team" className="bg-white py-12 md:py-16 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl md:text-4xl font-bold text-black mb-3 md:mb-4">
@@ -14,7 +14,7 @@ export default function TeamSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-6 md:gap-12 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-12 max-w-4xl mx-auto">
           {TEAM_DATA.members.map((member, index) => (
             <TeamMemberCard key={index} member={member} />
           ))}

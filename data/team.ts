@@ -15,18 +15,27 @@ export const TEAM_DATA: TeamSectionData = {
     {
       name: "Yewande Fowosere",
       role: "Chief Operating Officer",
-      image: "/Image/Card.png",
+      image: "/Image/team1.jpeg",
+      instagram: "https://www.instagram.com/yewandefowosere?igsh=MWlka2tzbncxb2Viaw==",
+      twitter: "#",
+      linkedin: "https://www.linkedin.com/in/yewande-fowosere?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+       {
+      name: "Bldr. Kola Ademoroti (MNIOB)",
+      role: "Managing Director",
+      image: "/Image/team2.jpeg",
       instagram: "#",
       twitter: "#",
-      linkedin: "#"
+      linkedin: "#",
+      contact: "+234 802 313 1764"
     },
     {
       name: "Oluwafemi Oluwaseyi",
-      role: "Chief Executive Officer",
-      image: "/Image/Card.png",
-      instagram: "#",
+      role: "Project Manager",
+      image: "/Image/team3.jpeg",
+      instagram: "https://www.instagram.com/qs_hephzibah?utm_source=qr&igsh=MXVrOXdzc2lhYzl2NA==",
       twitter: "#",
-      linkedin: "#"
-    }
+      linkedin: "https://www.linkedin.com/in/oluwafemi-oluwaseyi-73855b146?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
   ]
 }

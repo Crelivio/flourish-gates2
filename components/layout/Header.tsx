@@ -45,12 +45,14 @@ export default function Header() {
             </Link>
           </nav>
 
-          <Link 
-            href="/contact" 
+          <a
+            href="https://wa.link/mwou19"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-3 rounded-full font-medium hover:from-blue-600 hover:to-blue-800 transition-all"
           >
             Get In Touch
-          </Link>
+          </a>
 
           <button
             className="md:hidden text-white z-50"
@@ -89,13 +91,15 @@ export default function Header() {
               >
                 Services
               </Link>
-              <Link 
-                href="/contact" 
+              <a
+                href="https://wa.link/mwou19"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-full font-medium text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Get In Touch
-              </Link>
+              </a>
             </nav>
           </div>
         )}

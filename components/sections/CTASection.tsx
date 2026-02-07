@@ -14,12 +14,14 @@ export default function CTASection() {
             <p className="text-white/90 text-sm md:text-lg mb-6 md:mb-8 leading-relaxed">
               {CTA_DATA.description}
             </p>
-            <Button 
-              variant="glass" 
-              className="border-2 border-white text-white hover:bg-white/10 px-6 py-2 md:px-8 md:py-3 text-sm md:text-base"
-            >
-              {CTA_DATA.buttonText}
-            </Button>
+            <a href="https://docs.google.com/forms/d/1u91VlIjineqCjoktgjwDLlOCbIymuv-Xq4zrHhNMyoQ/edit" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="glass"
+                className="border-2 border-white text-white hover:bg-white/10 px-6 py-2 md:px-8 md:py-3 text-sm md:text-base"
+              >
+                {CTA_DATA.buttonText}
+              </Button>
+            </a>
           </div>
 
           <div className="relative h-48 md:h-80">

@@ -1,6 +1,6 @@
 import { FOOTER_DATA } from "@/data/footer"
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa"
-import { FaXTwitter } from "react-icons/fa6"
+import { FaEnvelope, FaXTwitter } from "react-icons/fa6"
 
 export default function Footer() {
   return (
@@ -66,6 +66,12 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <FaLinkedinIn className="w-5 h-5" />
+              </a>
+              <a
+                href={`mailto:${FOOTER_DATA.email}`}
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <FaEnvelope className="w-5 h-5" />
               </a>
             </div>
           </div>
