@@ -5,6 +5,7 @@ export type TeamMember = {
   instagram?: string
   twitter?: string
   linkedin?: string
+  contact?: string
 }
 
 export type FollowJourneyData = {

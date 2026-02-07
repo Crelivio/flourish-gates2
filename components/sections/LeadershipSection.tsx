@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Button from "@/components/ui/Button"
 import { LEADERSHIP_DATA } from "@/data/leadership"
 
@@ -13,9 +14,11 @@ export default function LeadershipSection() {
             <p className="text-gray-700 text-sm md:text-lg mb-6 md:mb-8 leading-relaxed">
               {LEADERSHIP_DATA.description}
             </p>
-            <Button variant="primary" className="text-sm md:text-base px-6 py-2 md:px-8 md:py-3">
-              {LEADERSHIP_DATA.buttonText}
-            </Button>
+            <Link href="/about#team">
+              <Button variant="primary" className="text-sm md:text-base px-6 py-2 md:px-8 md:py-3">
+                {LEADERSHIP_DATA.buttonText}
+              </Button>
+            </Link>
           </div>
 
           <div className="relative h-64 md:h-96">
