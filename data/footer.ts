@@ -8,8 +8,9 @@ export const FOOTER_DATA: FooterData = {
   privacyText: "By subscribing, you agree to our privacy policy.",
   copyright: "© 2026 Flourish Gates Construction. All rights reserved.",
   socialLinks: {
-    instagram: "https://instagram.com",
-    twitter: "https://twitter.com",
-    linkedin: "https://linkedin.com"
-  }
+    instagram: "https://www.instagram.com/officiallyfgcl?igsh=d21va3p3emJ3dXV4",
+    twitter: "https://x.com/officiallyFGCL",
+    linkedin: "https://www.linkedin.com/company/officiallyfgcl/"
+  },
+  email: "info@flourishgates.com"
 }

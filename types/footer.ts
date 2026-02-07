@@ -10,4 +10,5 @@ export type FooterData = {
     twitter: string
     linkedin: string
   }
+  email: string
 }
